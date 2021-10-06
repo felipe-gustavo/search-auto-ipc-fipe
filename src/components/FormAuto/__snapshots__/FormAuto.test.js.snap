@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormAuto> checks renders structure 1`] = `
+<div
+  className="MuiBox-root MuiBox-root-2"
+>
+  <div
+    data-testid="header"
+  />
+  <div
+    data-testid="loading"
+  >
+    <div
+      className="MuiPaper-root makeStyles-containerForm-1 MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+      >
+        <div
+          data-testid="select-brand"
+        />
+        <div
+          data-testid="select-model"
+        />
+        <div
+          data-testid="select-year"
+        />
+        <div
+          data-testid="button-search"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

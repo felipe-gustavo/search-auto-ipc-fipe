@@ -2,12 +2,14 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "jest": true
     },
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "next/core-web-vitals"
+        "next/core-web-vitals",
+        "plugin:testing-library/react"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -19,7 +21,8 @@
     },
     "plugins": [
         "react",
-        "@typescript-eslint"
+        "@typescript-eslint",
+        "testing-library"
     ],
     "rules": {
       "no-unused-vars": "off",
@@ -28,7 +31,9 @@
       "@typescript-eslint/no-shadow": ["error"],
       "linebreak-style": "off",
       "react/react-in-jsx-scope": ["off"],
-      "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx"] }],
+      "react/jsx-filename-extension": [1, { "extensions": [".tsx", ".jsx", ".js"] }],
+      "no-use-before-define": "off",
+      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       "import/extensions": [
         "error",
         "ignorePackages",

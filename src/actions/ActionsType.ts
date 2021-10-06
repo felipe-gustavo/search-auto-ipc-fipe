@@ -1,0 +1,11 @@
+enum ActionsType {
+  SET_ALERT = 'SET_ALERT',
+  SET_YEARS = 'SET_YEARS',
+  SET_MODELS = 'SET_MODELS',
+  SET_BRANDS = 'SET_BRANDS',
+  RESET_STATE = 'RESET_STATE',
+  SET_SELECTED = 'SET_SELECTED',
+  SET_IS_LOADING = 'SET_IS_LOADING',
+}
+
+export default ActionsType;

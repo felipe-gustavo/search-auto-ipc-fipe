@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ShowFipeValue> when search is concluded check renders 1`] = `
+<div
+  className="makeStyles-containerFipeValue-1"
+>
+  <div>
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      Tabela Fipe:
+       
+      some-name
+    </h4>
+  </div>
+  <div>
+    <span
+      className="MuiTypography-root makeStyles-valueLabel-2 MuiTypography-h4"
+    >
+      some-value
+    </span>
+  </div>
+  <div>
+    <div
+      className="MuiTypography-root MuiTypography-subtitle2"
+    >
+      Este é o preço de compra do veículo
+    </div>
+    <button
+      className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiLink-button MuiTypography-body2 MuiTypography-colorPrimary"
+      data-testid="linkReset"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+    >
+      Escolher outro veículo
+    </button>
+  </div>
+</div>
+`;
+
+exports[`<ShowFipeValue> when search not is concluded check renders 1`] = `
+<div
+  className="makeStyles-containerFipeValue-1"
+>
+  <div>
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      Tabela Fipe:
+       
+    </h4>
+  </div>
+  <div>
+    <span
+      className="MuiTypography-root makeStyles-valueLabel-2 MuiTypography-h4"
+    />
+  </div>
+  <div>
+    <div
+      className="MuiTypography-root MuiTypography-subtitle2"
+    >
+      Este é o preço de compra do veículo
+    </div>
+    <button
+      className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiLink-button MuiTypography-body2 MuiTypography-colorPrimary"
+      data-testid="linkReset"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+    >
+      Escolher outro veículo
+    </button>
+  </div>
+</div>
+`;

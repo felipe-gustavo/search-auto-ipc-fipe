@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoadingBackdrop> when is Loading all is false check renders structure 1`] = `
+<fieldset
+  className="makeStyles-fieldSet-1"
+  data-testid="fieldset"
+  disabled={false}
+>
+  <div
+    className="makeStyles-loadingContainer-2 makeStyles-loadingContainer-6"
+    data-testid="containerLoading"
+    hidden={false}
+  >
+    <div
+      className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    <div>
+      some-children
+    </div>
+  </div>
+</fieldset>
+`;
+
+exports[`<LoadingBackdrop> when is Loading all is true check renders structure 1`] = `
+<fieldset
+  className="makeStyles-fieldSet-1"
+  data-testid="fieldset"
+  disabled={true}
+>
+  <div
+    className="makeStyles-loadingContainer-2 makeStyles-loadingContainer-3"
+    data-testid="containerLoading"
+    hidden={true}
+  >
+    <div
+      className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+      role="progressbar"
+      style={
+        Object {
+          "height": 40,
+          "width": 40,
+        }
+      }
+    >
+      <svg
+        className="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+          cx={44}
+          cy={44}
+          fill="none"
+          r={20.2}
+          strokeWidth={3.6}
+          style={Object {}}
+        />
+      </svg>
+    </div>
+  </div>
+  <div>
+    <div>
+      some-children
+    </div>
+  </div>
+</fieldset>
+`;

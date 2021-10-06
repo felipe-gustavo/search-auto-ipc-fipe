@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Container> when autoValue is complete check renders structure 1`] = `
+<div
+  className="makeStyles-main-2"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthMd"
+  >
+    <div
+      data-testid="banner-value"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Container> when autoValue is incomplete check renders structure 1`] = `
+<div
+  className="makeStyles-main-2 showForm"
+>
+  <div
+    className="MuiContainer-root makeStyles-containerForm-1 MuiContainer-maxWidthSm"
+  >
+    <div
+      data-testid="form"
+    />
+  </div>
+</div>
+`;

@@ -11,7 +11,7 @@ const assignState = (
   mustMerge = false,
 ) => {
   let newValue = value;
-  const oldValue = get(state.alert, path);
+  const oldValue = get(state, path);
 
   if (mustMerge
     && typeof value === 'object'
